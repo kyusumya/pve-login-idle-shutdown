@@ -11,3 +11,10 @@ Proxmox VE (PVE) のサーバーを**アイドル時に自動でシャットダ�
 ```bash
 sudo curl https://raw.githubusercontent.com/kyusumya/pve-login-idle-shutdown/refs/heads/main/pve-login-idle-shutdown.sh%20 | sudo tee /usr/local/bin/pve-login-idle-shutdown.sh
 sudo chmod +x /usr/local/bin/pve-login-idle-shutdown.sh
+
+## ⏰ cron で定期実行
+
+ターミナルで以下を実行して、cron に登録しましょう。
+
+```bash
+sudo crontab -e
