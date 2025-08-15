@@ -1,0 +1,6 @@
+[Timer]
+OnUnitActiveSec=1d
+Persistent=true
+
+[Install]
+WantedBy=timers.target
