@@ -15,7 +15,7 @@ sudo chmod +x /usr/local/bin/pve-login-idle-shutdown.sh
 
 ## ⏰ cron で定期実行
 
-次に、スクリプトを2時間ごとに自動で実行するように **cron** を設定します。
+次に、スクリプトを24時間ごとに自動で実行するように **cron** を設定します。
 
 1. crontabを編集
 
