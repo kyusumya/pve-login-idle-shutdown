@@ -26,5 +26,5 @@ sudo crontab -e
 2. ファイルの最後に以下の行を追加
 
 ```bash
-0 2 * * * /usr/local/bin/pve-login-idle-shutdown.sh
+0 24 * * * /usr/local/bin/pve-login-idle-shutdown.sh
 ```
