@@ -9,7 +9,7 @@ Proxmox VE (PVE) のサーバーを**アイドル時に自動でシャットダ�
 以下のコマンドをターミナルで実行してください。
 
 ```bash
-sudo curl https://raw.githubusercontent.com/kyusumya/pve-login-idle-shutdown/refs/heads/main/pve-login-idle-shutdown.sh | sudo tee /usr/local/bin/pve-login-idle-shutdown.sh
+sudo curl https://raw.githubusercontent.com/kyusumya/pve-login-idle-shutdown/refs/heads/main/pve-login-idle-shutdown.sh%20 | sudo tee /usr/local/bin/pve-login-idle-shutdown.sh
 sudo chmod +x /usr/local/bin/pve-login-idle-shutdown.sh
 sudo curl https://raw.githubusercontent.com/kyusumya/pve-login-idle-shutdown/refs/heads/main/pve-login-idle-shutdown.service | sudo tee /etc/systemd/system/pve-login-idle-shutdown.service
 sudo curl https://raw.githubusercontent.com/kyusumya/pve-login-idle-shutdown/refs/heads/main/pve-login-idle-shutdown.timer | sudo tee /etc/systemd/system/pve-login-idle-shutdown.timer
